@@ -11,3 +11,7 @@ When user hit the Start button the Red Timer will start counting down from 90s. 
 
 https://user-images.githubusercontent.com/97413286/161899849-f86042ab-e61c-406e-acc0-6d5f79d7809e.mp4
 
+
+URL site:  https://jamesn1307.github.io/quiz-me/
+github Page https://github.com/jamesN1307/quiz-me
+
