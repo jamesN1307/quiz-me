@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pokemon quiz </title>
+</head>
+<body>
+<div class="main">
+    <div class="scoreContainer">
+        <a href="#" id="viewHighScore">Hall of fame</a>
+    </div>
+    <div id="timer">
+        <div class="Timer">Time: <span id="timeLeft">0</span></div>
+        <div id="timesUp" style="display: none;">Time's Up!</div>
+
+    </div>
+    <div id="content">
+          <main class="quiz-content">
+              <!--start screen  -->
+              <div id="start">
+                  <h1>Pokemon quiz</h1>
+                  <p class="p-5">Hi Trainer let do a quiz on your pokemon knowledge. Keep in mind there is a time limit. And if you answer your question wrong, 30 seconds will be deducted.</p>
+                  <button type="button" id="start-quiz-button">Start Quiz</button>
+              </div>
+
+              <!--quiz div  -->
+              <div id="questionDiv" style="display: none;">
+                <p id="questionTitle"></p>
+                <div class="layout">
+                    <p><button id="btn0" class="answer" type="radio"></button></p>
+                    <p><button id="btn1" class="answer" type="radio"></button></p>
+                    <p><button id="btn2" class="answer" type="radio"></button></p>
+                    <p><button id="btn3" class="answer" type="radio"></button></p>
+                    <hr id="lineBreak" style="display: none" >
+                    <p id="answerCheck" style="display: none;"></p>
+                </div>
+              </div>
+
+              <!-- score div -->
+                <div class="score.scoreContainer" id="summary" style="display: none;">
+                    <div class="scoreHeader">
+                        <h2>Your final score is <span id="finalScore"></span> !</h2>
+                        <form>
+                            <p>Enter your initials: <input id="initialInput" type="text">
+                            <button type="submit" id="submitInitialBtn" >Submit</button>
+                            </p>
+                        </form>
+                    </div>
+            </div>
+
+            <!-- highscores section -->
+            <div id="highScoreSection"  style="display: none;">
+                <h2>High Scores<h2>                     
+                <div id="listOfHighScores"></div>
+                <!-- append each highscore as new paragraph here -->
+                <p>
+                    <button type="submit" id="goBackBtn">Go Back</button>
+                    <button type="submit" id="clearHighScoreBtn">Clear High Scores</button>
+                </p>
+                
+            </div>
+          </main>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

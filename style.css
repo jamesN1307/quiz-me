@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #00ff2a;
+    text-align:center;
+    display:block;
+}
+
+#timer{
+    float: right;
+}
+#viewHighScore{
+    float:left;
+}
+p {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+button{
+    background-color: #9900ff; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    font-size: 20px;
+}
+#timer{
+    color: #004085;
+    background: #ff0303;
+    border: 1px solid #b8daff;
+    height: 45px;
+    padding: 0 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 145px;
+    font-size: 30px;
+}
+#timeLeft{
+    font-weight: 400;
+    font-size: 30px;
+    user-select: none;
+}
+.scoreHeader {
+    font-size: 30px;
+    color: salmon;
+}
+#start{
+    justify-content: center;
+    padding-top: 100px;
+}    
+
+h1,h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 68, 255);
+}
+#viewHighScore{
+    font-size: 20px;
+  
+}
